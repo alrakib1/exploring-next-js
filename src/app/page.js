@@ -4,7 +4,7 @@ import React from 'react';
 const page = () => {
   return (
     <div>
-        <h4>THis is next js app</h4>
+        <h4>THis is my first next js app</h4>
         <Counter/>
     </div>
   );
