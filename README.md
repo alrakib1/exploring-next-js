@@ -14,3 +14,13 @@ To use common components we have create a layout folder inside app folder. that 
 
 ## Link
 You can use link to go to different route. But you have to import link from next/link. Link in next js is a little bit different from react. Because in react we use to for direction but in next js we use href for direction just like anchor tag on html.
+
+## MetaData
+you can use different page title with the help of metadata.
+
+## Image
+to use image on nextjs you have to configure the next js config file. you have to add a image object and under this object there should be a domain property. this domain will be an array because you have to use multiple images from different domain.
+
+Also to use image we have to import <Image> from next js. image must contain height, width and alt attribute.
+
+do not use img tag. better use Image tag from next js as next js optimize the image in much better way 
