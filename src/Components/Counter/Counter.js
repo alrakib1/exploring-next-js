@@ -18,6 +18,7 @@ const Counter = () => {
         </button>
 
         <button
+         disabled={count === 0}
           className="btn bg-blue-400 p-1 text-black ml-10"
           onClick={() => setCount(count - 1)}
         >
