@@ -1,7 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import "../../app/globals.css";
+
+import '../../app/globals.css'
 const Counter = () => {
   const [count, setCount] = useState(0);
   return (
@@ -9,7 +10,7 @@ const Counter = () => {
       Count : {count}
       <div className="mt-10">
         <button
-          className="btn bg-white p-1 text-black"
+          className="btn bg-blue-900 p-1 text-black"
           onClick={() => setCount(count + 1)}
         >
           {" "}
@@ -17,7 +18,7 @@ const Counter = () => {
         </button>
 
         <button
-          className="btn bg-white p-1 text-black ml-10"
+          className="btn bg-blue-400 p-1 text-black ml-10"
           onClick={() => setCount(count - 1)}
         >
           {" "}
