@@ -1,0 +1,41 @@
+{
+    "post": [
+        {
+          "id": 1,
+          "title": "Exploring the Universe",
+          "description": "A journey through the cosmos, uncovering the mysteries of distant galaxies.",
+          "likes": 102
+        },
+        {
+          "id": 2,
+          "title": "Gourmet Delights",
+          "description": "Indulge in a culinary adventure with exquisite dishes from around the world.",
+          "likes": 75
+        },
+        {
+          "id": 3,
+          "title": "Adventures in Wonderland",
+          "description": "Embark on a whimsical journey filled with magical creatures and enchanting landscapes.",
+          "likes": 120
+        },
+        {
+          "id": 4,
+          "title": "Tech Innovations Showcase",
+          "description": "Discover the latest and greatest in technology with groundbreaking innovations.",
+          "likes": 90
+        },
+        {
+          "id": 5,
+          "title": "Mindful Meditation Moments",
+          "description": "Experience serenity and tranquility through guided meditation sessions.",
+          "likes": 150
+        },
+        {
+          "id": 6,
+          "title": "Artistry in Motion",
+          "description": "Witness the beauty of dynamic art forms that captivate the senses and inspire creativity.",
+          "likes": 88
+        }
+      ]
+      
+}
