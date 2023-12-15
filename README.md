@@ -25,6 +25,14 @@ Also to use image we have to import <Image> from next js. image must contain hei
 
 do not use img tag. better use Image tag from next js as next js optimize the image in much better way 
 
+example of config:
+const nextConfig = {
+  images: {
+    domains: ["i.ibb.co"],
+  },
+};
+
+
 ## Data fetching
 To fetch Data on next js, you have to use async, await because data will be fetched on server. checkout the posts folder for example.
 We don't need to use useeffect or state management
