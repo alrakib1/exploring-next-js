@@ -14,6 +14,7 @@ const res = await fetch("http://localhost:5000/posts", {
   });
 
   it will run build operation after that certain time and will update data on site.
+  By default it will be force cache .
 
 <h1>Server site rendering</h1>
 
