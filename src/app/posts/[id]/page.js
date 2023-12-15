@@ -4,8 +4,10 @@ import Link from "next/link";
 const DetailPage = async({params}) => {
 // console.log(params)
 const res = await fetch(`http://localhost:5000/posts/${params.id}`, {
-    cache: "no-store"
+    cache: "no-store"  
    });
+
+  //  if we don't use  cache: "no-store" then it will automatically generate static site
    const post = await res.json();
 
     return (
