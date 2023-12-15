@@ -1,16 +1,16 @@
 {
-    "post": [
+    "posts": [
         {
           "id": 1,
           "title": "Exploring the Universe",
           "description": "A journey through the cosmos, uncovering the mysteries of distant galaxies.",
-          "likes": 102
+          "likes": 1200
         },
         {
           "id": 2,
           "title": "Gourmet Delights",
           "description": "Indulge in a culinary adventure with exquisite dishes from around the world.",
-          "likes": 75
+          "likes": 76
         },
         {
           "id": 3,

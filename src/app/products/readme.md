@@ -1,0 +1,2 @@
+## Dynamic Route (for specific id)
+For nesting we have use crate a route then inside that route we have to  create a folder with third bracket. For example I have created Products route and inside that route I have created a dynamic route named [id]. it will get params and searchParams as children.
