@@ -34,3 +34,8 @@ Note: Data that wouldn't be fetched will still be static for website.
 
 
 check [id] folder to know about dynamic data fetching
+
+
+## Module css:
+
+React overflows css . But next js made some changes . it won't overflow. For example post page h1 tag and users page h1 tag has same className but it haven't overflowed with each other.

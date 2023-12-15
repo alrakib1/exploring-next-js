@@ -1,5 +1,5 @@
 import Users from '@/Components/users/Users';
-import React from 'react';
+
 
 const UsersPage = () => {
     return (

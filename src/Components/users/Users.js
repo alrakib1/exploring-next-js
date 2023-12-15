@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-
+import styles from './Users.module.css'
 const Users = () => {
   const [users, setUsers] = useState();
 
@@ -16,7 +16,7 @@ const Users = () => {
 
   return (
     <div>
-      <h3>Total users: {users?.length}</h3>
+      <h3 className={styles.header_text}>Total users: {users?.length}</h3>
       {users?.map((user) => (
         <div
           key={user.id}

@@ -75,3 +75,10 @@ check posts folder
 
 ## Client side data fetching: 
 Check Components > users folder
+
+
+## Css module support
+Check the posts folder inside app folder.
+
+## api
+Check the app folder 
