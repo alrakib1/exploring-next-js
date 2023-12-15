@@ -3,4 +3,4 @@ client components are used on different folder. It's used on src folder. We have
 
 Like for local storage usages we have to use client components
 
-<h1>Better to use client component inside different folder</h1>
+<!-- <h1>Better to use client component inside different folder</h1> -->

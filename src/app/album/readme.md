@@ -4,3 +4,10 @@ to use image on nextjs you have to configure the next js config file. you have t
 Also to use image we have to import <Image> from next js. image must contain height, width and alt attribute.
 
 do not use img tag. better use Image tag from next js as next js optimize the image in much better way 
+
+example of config:
+const nextConfig = {
+  images: {
+    domains: ["i.ibb.co"],
+  },
+};
