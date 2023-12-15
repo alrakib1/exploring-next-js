@@ -72,3 +72,6 @@ Note: Data that wouldn't be fetched will still be static for website.
 
 ## For dynamic route: 
 check posts folder
+
+## Client side data fetching: 
+Check Components > users folder

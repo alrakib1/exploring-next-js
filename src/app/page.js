@@ -25,6 +25,9 @@ const page = () => {
         <Link href="/posts">
           <button className="btn btn-primary">Posts</button>
         </Link>
+        <Link href="/users">
+          <button className="btn btn-primary">Users</button>
+        </Link>
       </div>
       <Counter />
     </div>
