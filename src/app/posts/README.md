@@ -31,3 +31,6 @@ for every user request data will change dynamically and will see latest data.
   For social media or news portal app where data frequently change then server site render is recommended and for e-commerce site where price update after a period of time then static site rendering is recommended.
 
 Note: Data that wouldn't be fetched will still be static for website.
+
+
+check [id] folder to know about dynamic data fetching

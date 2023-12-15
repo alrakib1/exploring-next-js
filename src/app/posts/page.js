@@ -1,9 +1,11 @@
+import Link from "next/link";
+
 const PostPage = async () => {
   const res = await fetch("http://localhost:5000/posts", {
    cache: "no-store"
   });
   const posts = await res.json();
-  console.log(posts);
+  // console.log(posts);
 
   return (
     <div className="w-full">
@@ -19,7 +21,7 @@ const PostPage = async () => {
               <p>{post.description}</p>
               <p>Likes:{post.likes}</p>
               <div className="card-actions justify-center">
-                <button className="btn btn-primary">See More</button>
+               <Link href={`/posts/${post.id}`}> <button className="btn btn-primary">See More</button></Link>
               </div>
             </div>
           </div>
